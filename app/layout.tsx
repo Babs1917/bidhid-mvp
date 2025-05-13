@@ -1,5 +1,5 @@
 // Force redeploy
-import '../globals.css';
+import './globals.css';
 import { ReactNode } from 'react';
 
 export const metadata = {
