@@ -29,7 +29,7 @@ export default function Home() {
   );
 }
 
-function Stat({ label, count }: { label: string, count: number }) {
+function Stat({ label, count }) {
   return (
     <div className="border border-gray-300 rounded-md p-4">
       <div className="text-3xl font-bold text-[#8A3FFC]">{count}</div>
